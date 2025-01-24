@@ -1,0 +1,25 @@
+{
+  "name": "pmksby",
+  "version": "1.0.0",
+  "description": "CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.\r More information can be found at the [official site](https://codeigniter.com).",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "mix": "npx mix",
+    "build": "npx src/styles.css -o public/styles.css",
+    "watch": "npx src/styles.css -o public/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.0"
+  }
+}
